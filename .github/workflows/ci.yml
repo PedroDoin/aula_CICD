@@ -9,7 +9,7 @@ jobs:
    
    steps:
    - name: Clonar o respositório
-     uses: action/checkout@v3
+     uses: actions/checkout@v3
      
    - name: Instalar o compilador gcc
      run: sudo apt update && sudo apt install build-essential -y
